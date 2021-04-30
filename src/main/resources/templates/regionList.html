@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <style type="text/css">
+        table {border-collapse: collapse; font-size: 14px; width: 80%; margin: auto}
+        table, th, td {border: 1px solid darkslategray;padding: 10px}
+    </style>
+</head>
+<body>
+<div style="text-align: center">
+    <span style="color: darkslategray; font-size: 30px">欢迎光临！</span>
+    <hr/>
+    <table class="list">
+        <tr>
+            <th>行政区编码</th>
+            <th>行政区名称</th>
+            <th>更新时间</th>
+            <th>行政区划</th>
+        </tr>
+        <tr th:each="item : ${regionList}">
+            <td th:text="${item.REGIONCODE}">1</td>
+            <td th:text="${item.REGIONNAME}">张三</td>
+            <td th:text="${item.UPDATETIME}">zhangsan</td>
+            <td th:text="${item.ALLREGINNAME}">20</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

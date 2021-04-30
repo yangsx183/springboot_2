@@ -1,0 +1,12 @@
+15:43:59.317 [main] INFO  com.yangsx.Springboot1Application - Starting Springboot1Application on DESKTOP-SC4TR4G with PID 18920 (D:\java\workspace\springboot_2\target\classes started by 14538 in D:\java\workspace\springboot_2)
+15:43:59.325 [main] INFO  com.yangsx.Springboot1Application - No active profile set, falling back to default profiles: default
+15:44:00.056 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+15:44:00.056 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:44:00.057 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+15:44:00.111 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:44:00.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+15:44:00.454 [main] INFO  com.yangsx.Springboot1Application - Started Springboot1Application in 1.488 seconds (JVM running for 2.54)
+15:44:09.527 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:44:09.584 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:44:09.585 [http-nio-8088-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+15:44:09.678 [http-nio-8088-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
